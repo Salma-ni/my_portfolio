@@ -15,8 +15,11 @@ In .CSS
 
 * Justify and flex items (W3 school, https://www.w3schools.com/css/css3_flexbox_container.asp)
 
+* "background-size: cover;" (Mohit Joshi, 2023, BrowserStack, https://www.browserstack.com/guide/how-to-resize-image-using-css)
+
+
 In HTML:
-"<div>
+* "<div>
         <ul>
           <li><a href="#about-me">About Me</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -24,4 +27,3 @@ In HTML:
           <li><a href="#resume">Resume</a></li>
         </ul>
       </div>" (Challange 1 - Horiseon, Front End Web Dev/ EdX )
-
