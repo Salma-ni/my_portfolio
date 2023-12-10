@@ -14,3 +14,14 @@ In .CSS
 }" (Learning Assistant AskBCS, Masinga, 2023)
 
 * Justify and flex items (W3 school, https://www.w3schools.com/css/css3_flexbox_container.asp)
+
+In HTML:
+"<div>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+          <li><a href="#resume">Resume</a></li>
+        </ul>
+      </div>" (Challange 1 - Horiseon, Front End Web Dev/ EdX )
+
