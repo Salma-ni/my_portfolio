@@ -8,7 +8,7 @@
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #090c0e;
-    color: #ffffff;
+    color: #ffffff;;
 }
 
 .header h1 {
@@ -16,8 +16,12 @@
   font-size: 70px;
 }
 
-.header div ul {
+header div ul {
   list-style-type: none;
+  padding: 5px;
+  display: flex ;
+  align-items: end;
+  float: right;
 }
 
 a {
