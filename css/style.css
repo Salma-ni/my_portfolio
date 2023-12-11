@@ -128,10 +128,21 @@ body {
 }
 
 h1 
-h2,
+h2 {
+  padding: 20px;
+  margin: 20px;
+}
+
+.heading {
+  margin: 1px 50px 0px 0px;
+  background-color: rgb(158, 130, 223);
+  color:white;
+  font-size: 1em;
+}
+
 h3 {
   padding: 20px;
-  margin: 1px 50px 25px 25px;
+  margin: 1px 50px 25px 0px;
   background-color: rgb(158, 130, 223);
   color:white;
   font-size: smaller;
@@ -152,13 +163,19 @@ p {
 
 /*footer*/ 
 
+.page-section-contact {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+
 footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   background-color: #090c0e;
   color: white;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 50%;
   }
 
@@ -166,24 +183,24 @@ footer {
     text-align: center;
   }
 
-  .page-section-contact ul{
+  .page-section-contact {
     list-style: none;
     padding: 0;
   }
 
-.page-section-contact ul li {
+.page-section-contact {
     background-color:#090c0e;
     line-height:30px
   }
   
-.page-section-contact ul a {
+.page-section-contact a {
     border-bottom: 5px solid rgb(58, 20, 146);
     text-decoration: none;
     padding: 10px;
     color: #ffffff;
   }
 
-.page-section-contact div ul li:hover a {
+.page-section-contact div a:hover {
   border-bottom-color: rgb(158, 130, 223);
 }
 
