@@ -72,7 +72,7 @@ body {
   line-height: 1.5;
 }
 
-.hero-banner {
+.banner {
   margin: 0;
   padding: 10px;
   line-height: 5;
@@ -84,8 +84,51 @@ body {
   text-align: end;
 }
 
-.page-section {
-  background-image: url;
+#secondgrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 500px 150px 150px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "work horiseon horiseon"
+  "work ledwall calculator"
+  "work pastelpuzzle run"
+  ;
+}
+
+#horiseon {
+  grid-area: horiseon;
+  background-image: url("../images/02-portfolio-4.jpg");
+
+}
+#ledwall {
+  grid-area: ledwall;
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+#calculator {
+  grid-area: calculator;
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+#pastelpuzzle {
+  grid-area: pastelpuzzle;
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+#run {
+  grid-area: run;
+  background-image: url("../images/02-run-buddy.jpg");
+}
+
+.GridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
 }
 
 h1 
@@ -109,11 +152,22 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #090c0e;
   color: white;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  }
+
+  .page-section-contact {
+    text-align: center;
+  }
+
+  .page-section-contact ul{
+    list-style: none;
+    padding: 0;
   }
 
 .page-section-contact ul li {
     background-color:#090c0e;
-    text-align:end;
     line-height:30px
   }
   
@@ -122,10 +176,9 @@ footer {
     text-decoration: none;
     padding: 10px;
     color: #ffffff;
-    /* display: block; */
   }
 
-.page-section-contact div ul li a:hover {
+.page-section-contact div ul li:hover a {
   border-bottom-color: rgb(158, 130, 223);
 }
 
