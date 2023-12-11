@@ -11,11 +11,19 @@ In .CSS
 * ".top-nav ul a {
   border-bottom: 5px solid rgb(58, 20, 146);
   text-decoration: none;
-}" (Learning Assistant AskBCS, Masinga, 2023)
+}" (Masinga, Learning Assistant AskBCS, 2023)
 
 * Justify and flex items (W3 school, https://www.w3schools.com/css/css3_flexbox_container.asp)
 
 * "background-size: cover;" (Mohit Joshi, 2023, BrowserStack, https://www.browserstack.com/guide/how-to-resize-image-using-css)
+
+* ".grid-system nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}" and "/* width:75%; */" (Sangeetha skaliaperumal, Learning Assistant Ask BCS,2023)
+
+
 
 
 In HTML:

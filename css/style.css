@@ -23,6 +23,12 @@
   align-items:bottom;
 }
 
+.grid-system nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
 .grid-system h1 {
   font-size: 35px;
   margin: 0;
@@ -39,7 +45,7 @@
 
 .grid-system ul li {
   background-color:#090c0e;
-  width:75%;
+  /* width:75%; */
   text-align:center;
   line-height:50px
 }
@@ -49,7 +55,7 @@
   text-decoration: none;
   padding: 5px;
   color: #ffffff;
-  display: block;
+  /* display: block; */
   text-align: right;
 }
 
@@ -100,15 +106,29 @@ p {
 
 footer {
   display: grid;
-  grid-template-columns: 1/3;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: #090c0e;
   color: white;
   }
 
-#contact div ul li a a:hover {
+.page-section-contact ul li {
+    background-color:#090c0e;
+    text-align:end;
+    line-height:30px
+  }
+  
+.page-section-contact ul a {
+    border-bottom: 5px solid rgb(58, 20, 146);
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    /* display: block; */
+  }
+
+.page-section-contact div ul li a:hover {
   border-bottom-color: rgb(158, 130, 223);
 }
 
-footer article p {
+.page-section-contact article p {
   text-align: center;
 }
