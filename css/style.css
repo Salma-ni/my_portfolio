@@ -20,21 +20,21 @@
   color: #ffffff;
   display: flex;
   justify-content: space-between;
-  align-items:flex-end;
+  align-items:bottom;
 }
 
 .grid-system h1 {
   font-size: 35px;
+  margin: 0;
 }
 
 .grid-system ul {
   display:grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 50px;
-   justify-content:end;
-   justify-items:center;
-   list-style-type:none;
-   margin:0;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px;
+  justify-items:center;
+  list-style-type:none;
+  margin:0;
 }
 
 .grid-system ul li {
@@ -49,6 +49,8 @@
   text-decoration: none;
   padding: 5px;
   color: #ffffff;
+  display: block;
+  text-align: right;
 }
 
 .grid-system a:hover {
