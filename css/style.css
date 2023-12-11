@@ -7,45 +7,51 @@
 .grid-system {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1%;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
 }
 
 /*header */
 
-.top-nav {
+.grid-system {
   padding: 25px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #090c0e;
   color: #ffffff;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items:flex-end;
 }
 
-.top-nav h1 {
-  font-size: 30px;
+.grid-system h1 {
+  font-size: 35px;
 }
 
-.top-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+.grid-system ul {
+  display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 50px;
+   justify-content:end;
+   justify-items:center;
+   list-style-type:none;
+   margin:0;
 }
 
-.top-nav ul li {
-  margin-right: 30px;
+.grid-system ul li {
+  background-color:#090c0e;
+  width:75%;
+  text-align:center;
+  line-height:50px
 }
 
-.top-nav ul a {
+.grid-system ul a {
   border-bottom: 5px solid rgb(58, 20, 146);
   text-decoration: none;
   padding: 5px;
   color: #ffffff;
 }
 
-.top-nav a:hover {
+.grid-system a:hover {
   border-bottom-color: rgb(158, 130, 223);
 }
 
