@@ -4,16 +4,9 @@
   margin: 0;
 }
 
-.grid-system {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1em;
-}
-
 /*header */
 
-.grid-system {
+.menuLinks {
   padding: 25px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #090c0e;
@@ -23,18 +16,18 @@
   align-items:bottom;
 }
 
-.grid-system nav{
+.menuLinks nav{
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
 
-.grid-system h1 {
+.menuLinks h1 {
   font-size: 35px;
   margin: 0;
 }
 
-.grid-system ul {
+.menuLinks ul {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 50px;
@@ -43,14 +36,14 @@
   margin:0;
 }
 
-.grid-system ul li {
+.menuLinks ul li {
   background-color:#090c0e;
   /* width:75%; */
   text-align:center;
   line-height:50px
 }
 
-.grid-system ul a {
+.menuLinks ul a {
   border-bottom: 5px solid rgb(58, 20, 146);
   text-decoration: none;
   padding: 5px;
@@ -59,11 +52,9 @@
   text-align: right;
 }
 
-.grid-system a:hover {
+.menuLinks a:hover {
   border-bottom-color: rgb(158, 130, 223);
 }
-
-/*main section*/
 
 body {
   margin: 0;
@@ -83,7 +74,7 @@ body {
   font-style: italic;
   text-align: end;
 }
-
+/*main section*/
 #secondgrid {
   margin: 0px 5%;
   display: grid;
@@ -99,26 +90,31 @@ body {
 #horiseon {
   grid-area: horiseon;
   background-image: url("../images/02-portfolio-4.jpg");
+  border: solid rgb(58, 20, 146) ;
 
 }
 #ledwall {
   grid-area: ledwall;
   background-image: url("../images/02-portfolio-1.jpg");
+  border: solid rgb(58, 20, 146) ;
 }
 
 #calculator {
   grid-area: calculator;
   background-image: url("../images/02-portfolio-2.jpg");
+  border: solid rgb(58, 20, 146) ;
 }
 
 #pastelpuzzle {
   grid-area: pastelpuzzle;
   background-image: url("../images/02-portfolio-3.jpg");
+  border: solid rgb(58, 20, 146) ;
 }
 
 #run {
   grid-area: run;
   background-image: url("../images/02-run-buddy.jpg");
+  border: solid rgb(58, 20, 146) ;
 }
 
 .GridArea {
@@ -133,7 +129,14 @@ body {
 
 h1 
 h2,
-h3,
+h3 {
+  padding: 20px;
+  margin: 1px 50px 25px 25px;
+  background-color: rgb(158, 130, 223);
+  color:white;
+  font-size: smaller;
+}
+
 h4,
 h5,
 h6 {
