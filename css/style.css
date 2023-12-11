@@ -4,6 +4,13 @@
   margin: 0;
 }
 
+.grid-system {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1%;
+  grid-gap: 1em;
+}
+
 /*header */
 
 .top-nav {
@@ -84,5 +91,16 @@ p {
 }
 
 footer {
-  text-align: centre;
+  display: grid;
+  grid-template-columns: 1/3;
+  background-color: #090c0e;
+  color: white;
+  }
+
+#contact div ul li a a:hover {
+  border-bottom-color: rgb(158, 130, 223);
+}
+
+footer article p {
+  text-align: center;
 }
