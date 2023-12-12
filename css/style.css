@@ -136,6 +136,9 @@ h3 {
 .uno {
   display: flex;
   flex-direction: horizontal;
+  align-items: flex-end;
+  padding: 20px;
+  margin: 20px;
 
 }
 

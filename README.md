@@ -1,4 +1,4 @@
-# my_portfolio
+# My Portfolio
 The creation of my portfolio in the form of a HTML.
 
 ## Description
@@ -7,6 +7,12 @@ Challange 2 was the creation of my portfilio using HTML and CSS.
 We were given a basic starter code and .css and told to recreate the image (with much difficulty).
 I created a Nav bar with links to an 'About Me', 'Projects', 'Contact Me' and 'Resume'. 
 The resume links to an external webpage, and the rest link to parts of the webpage.
+
+In the About me section - I added some basic info about me with lorem ipsum, as well as a photo with a border.
+
+In the Project section - I added 5 major projects I will be working on (updating them as i go along). The first project is my first Github Repo (with a link to it). The image is bigger than the other 4 projects.
+
+In the contact me section - There is 
 
 
 ## Citations:
