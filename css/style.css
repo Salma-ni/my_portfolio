@@ -63,10 +63,17 @@ body {
   line-height: 1.5;
 }
 
+h1,
+
+h2 {
+  padding: 20px;
+  margin: 20px;
+  font-size: 30px;
+}
+
 .banner {
   margin: 0;
-  padding: 10px;
-  line-height: 5;
+  padding: 1px;
   background-image: url(../images/02-hero-bg.jpg);
   max-width: 100%;
   background-size: cover;
@@ -74,7 +81,24 @@ body {
   font-style: italic;
   text-align: end;
 }
+
 /*main section*/
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#id p {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: right;
+}
+
 #secondgrid {
   margin: 0px 5%;
   display: grid;
@@ -83,8 +107,7 @@ body {
   grid-template-areas:
   "work horiseon horiseon"
   "work ledwall calculator"
-  "work pastelpuzzle run"
-  ;
+  "work pastelpuzzle run" ;
 }
 
 #horiseon {
@@ -127,18 +150,7 @@ body {
   align-content: end;
 }
 
-h1 
-h2 {
-  padding: 20px;
-  margin: 20px;
-}
 
-.heading {
-  margin: 1px 50px 0px 0px;
-  background-color: rgb(158, 130, 223);
-  color:white;
-  font-size: 1em;
-}
 
 h3 {
   padding: 20px;
@@ -147,21 +159,21 @@ h3 {
   color:white;
   font-size: smaller;
 }
-
-h4,
-h5,
-h6 {
-  margin: 0;
+.heading {
+  margin: 1px 50px 0px 0px;
+  background-color: rgb(158, 130, 223);
+  color:white;
+  font-size: 1em;
 }
 
-p {
-  margin: 20px;
+/*footer*/
+
+
+#contactlink h4 {
   padding: 20px;
-  font-size: 20px;
-  text-align: right;
+  margin: 20px;
+  font-size: 30px;
 }
-
-/*footer*/ 
 
 .page-section-contact {
   text-align: center;
@@ -204,6 +216,8 @@ footer {
   border-bottom-color: rgb(158, 130, 223);
 }
 
-.page-section-contact article p {
+.page-section-contact p {
+  padding: 10px 10px 10px 10px;
   text-align: center;
+
 }
