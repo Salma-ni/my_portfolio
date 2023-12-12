@@ -133,6 +133,14 @@ h3 {
   font-size: medium;
 }
 
+.horiseon {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 20px;
+  margin: 20px;
+}
+
 .uno {
   display: flex;
   flex-direction: horizontal;
@@ -145,6 +153,9 @@ h3 {
 .dos {
   display: flex;
   flex-direction: horizontal;
+  align-items: flex-end;
+  padding: 20px;
+  margin: 20px;
 }
 
 a:link {

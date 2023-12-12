@@ -12,10 +12,21 @@ In the About me section - I added some basic info about me with lorem ipsum, as 
 
 In the Project section - I added 5 major projects I will be working on (updating them as i go along). The first project is my first Github Repo (with a link to it). The image is bigger than the other 4 projects.
 
-In the contact me section - There is 
+In the contact me section - There are links to contact me on Github, LinkedIn and Email.
 
+I chose purple and black for the theme.
 
-## Citations:
+I added a media query to fit other screens as well.
+
+Overall i find that this challange was difficult only because I had done some things wrong and because I am short on time. If I had more time, I'm sure I would be able to find a way to satisfy all the criteria. 
+
+## Usage
+
+The usage is pretty simple as a basic HTML.
+
+![Some screenshots](./images/Assets/)
+
+## Citations/ Credits:
 
 In .CSS 
 * ".top-nav a:hover {
@@ -44,8 +55,6 @@ a:active { text-decoration: none; }"
 (Anna Fitzgerald, 2022, Hubspot blog, https://blog.hubspot.com/website/remove-underline-from-links-css)
 
 
-
-
 In HTML:
 * "<div>
         <ul>
@@ -55,3 +64,7 @@ In HTML:
           <li><a href="#resume">Resume</a></li>
         </ul>
       </div>" (Challange 1 - Horiseon, Front End Web Dev/ EdX )
+
+## License
+
+MIT License
