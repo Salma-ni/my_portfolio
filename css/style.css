@@ -63,12 +63,16 @@ body {
   line-height: 1.5;
 }
 
-h1,
+h1 {
+  font-size: 30px;
+}
 
 h2 {
   padding: 20px;
   margin: 20px;
+  font-family: 'Lucida Handwriting', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 30px;
+  color:rgb(58, 20, 146) ;
 }
 
 .banner {
@@ -77,7 +81,7 @@ h2 {
   background-image: url(../images/02-hero-bg.jpg);
   max-width: 100%;
   background-size: cover;
-  color:rgb(158, 130, 223);
+  color:rgb(58, 20, 146);
   font-style: italic;
   text-align: end;
 }
@@ -90,13 +94,17 @@ h2 {
   justify-content: space-between;
 }
 
-#id p {
+#me {
   display: flex;
-  justify-content: flex-end;
-  margin: 20px;
-  padding: 20px;
-  font-size: 30px;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1em;
   text-align: right;
+}
+
+div img {
+  border: solid #090c0e;
 }
 
 #secondgrid {
