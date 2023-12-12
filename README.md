@@ -23,6 +23,12 @@ In .CSS
   justify-content: space-between;
 }" and "/* width:75%; */" (Sangeetha skaliaperumal, Learning Assistant Ask BCS,2023)
 
+* "a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }"
+(Anna Fitzgerald, 2022, Hubspot blog, https://blog.hubspot.com/website/remove-underline-from-links-css)
+
 
 
 
