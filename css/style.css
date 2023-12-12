@@ -113,50 +113,21 @@ div img {
   border: solid #090c0e;
 }
 
-#work {
-  margin: 0px 0px;
-  display: grid;
-  grid-template-columns: 600px 600px 600px;
-  grid-template-areas:
-    "side horiseon horiseon"
-    "side ledwall calculator"
-    "side pastelpuzzle run";
-}
-
-#horiseon {
-  grid-area: horiseon;
-}
-
-#ledwall {
-  grid-area: ledwall;
-}
-
-#calculator {
-  grid-area: calculator;
-}
-
-#pastelpuzzle {
-  grid-area: pastelpuzzle;
-}
-
-#run {
-  grid-area: run;
-}
-
-.page-section {
-  display: grid;
-  background-repeat: no-repeat;
-  max-width: 50px;
-  max-width: 50px;
+.outerbox {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  max-width: 500px;
   margin: 5px;
   cursor: pointer;
-  justify-content: end;
+  justify-content: center;
 }
+
 
 h3 {
   padding: 20px;
-  margin: 0px 50px 25px -2px;
-  align-items: center;
+  margin: 10px 50px 50px 50px;
+  align-items: end;
   background-color: rgb(158, 130, 223);
   border: solid rgb(58, 20, 146);
   color: white;
