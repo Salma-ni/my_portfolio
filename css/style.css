@@ -13,10 +13,10 @@
   color: #ffffff;
   display: flex;
   justify-content: space-between;
-  align-items:bottom;
+  align-items: bottom;
 }
 
-.menuLinks nav{
+.menuLinks nav {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -28,19 +28,19 @@
 }
 
 .menuLinks ul {
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 50px;
-  justify-items:center;
-  list-style-type:none;
-  margin:0;
+  justify-items: center;
+  list-style-type: none;
+  margin: 0;
 }
 
 .menuLinks ul li {
-  background-color:#090c0e;
+  background-color: #090c0e;
   /* width:75%; */
-  text-align:center;
-  line-height:50px
+  text-align: center;
+  line-height: 50px
 }
 
 .menuLinks ul a {
@@ -72,7 +72,7 @@ h2 {
   margin: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 30px;
-  color:rgb(58, 20, 146) ;
+  color: rgb(58, 20, 146);
 }
 
 .banner {
@@ -94,16 +94,16 @@ h2 {
 }
 
 .flexflexflex {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #me {
   display: flex;
   padding: 20px;
   margin: 20px;
-  width:850px;
+  width: 850px;
   justify-content: center;
   font-size: 1em;
   text-align: right;
@@ -113,71 +113,71 @@ div img {
   border: solid #090c0e;
 }
 
-#secondgrid {
-  margin: 0px 5%;
+#work {
+  margin: 0px 0px;
   display: grid;
-  grid-template-rows: 500px 150px 150px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 600px 600px 600px;
   grid-template-areas:
-  "work horiseon horiseon"
-  "work ledwall calculator"
-  "work pastelpuzzle run" ;
+    "side horiseon horiseon"
+    "side ledwall calculator"
+    "side pastelpuzzle run";
 }
 
 #horiseon {
   grid-area: horiseon;
-  background-image: url("../images/02-portfolio-4.jpg");
-  border: solid rgb(58, 20, 146) ;
-
 }
+
 #ledwall {
   grid-area: ledwall;
-  background-image: url("../images/02-portfolio-1.jpg");
-  border: solid rgb(58, 20, 146) ;
 }
 
 #calculator {
   grid-area: calculator;
-  background-image: url("../images/02-portfolio-2.jpg");
-  border: solid rgb(58, 20, 146) ;
 }
 
 #pastelpuzzle {
   grid-area: pastelpuzzle;
-  background-image: url("../images/02-portfolio-3.jpg");
-  border: solid rgb(58, 20, 146) ;
 }
 
 #run {
   grid-area: run;
-  background-image: url("../images/02-run-buddy.jpg");
-  border: solid rgb(58, 20, 146);
 }
 
-.GridArea {
-  background-position: center;
-  background-size: cover;
+.page-section {
+  display: grid;
   background-repeat: no-repeat;
+  max-width: 50px;
+  max-width: 50px;
   margin: 5px;
   cursor: pointer;
-  display: grid;
-  align-content: end;
+  justify-content: end;
 }
 
 h3 {
   padding: 20px;
   margin: 0px 50px 25px -2px;
-  align-items: baseline;
+  align-items: center;
   background-color: rgb(158, 130, 223);
   border: solid rgb(58, 20, 146);
-  color:white;
-  font-size: large;
+  color: white;
+  font-size: medium;
 }
 
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
 
 /*footer*/
 
@@ -193,7 +193,7 @@ a:active { text-decoration: none; }
   display: flex;
   flex-direction: row;
   justify-content: space-between;
- }
+}
 
 footer {
   display: flex;
@@ -202,28 +202,28 @@ footer {
   align-items: center;
   justify-content: space-between;
   height: 50%;
-  }
-
-  .page-section-contact {
-    text-align: center;
-  }
-
-  .page-section-contact {
-    list-style: none;
-    padding: 0;
-  }
+}
 
 .page-section-contact {
-    background-color:#090c0e;
-    line-height:30px
-  }
-  
+  text-align: center;
+}
+
+.page-section-contact {
+  list-style: none;
+  padding: 0;
+}
+
+.page-section-contact {
+  background-color: #090c0e;
+  line-height: 30px
+}
+
 .page-section-contact a {
-    border-bottom: 5px solid rgb(58, 20, 146);
-    text-decoration: none;
-    padding: 10px;
-    color: #ffffff;
-  }
+  border-bottom: 5px solid rgb(58, 20, 146);
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+}
 
 .page-section-contact div a:hover {
   border-bottom-color: rgb(158, 130, 223);
@@ -234,10 +234,31 @@ footer {
   text-align: center;
 }
 
-@media all {
+@media all and (min-width:480px) 
+{
+  .menuLinks a {
+    float: none;
+    width: 50%;
+  }
 
+  .column {
+    flex: 25%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
 }
 
-@media screen and (min 320px) {
+@media all and (max-width:768px) {
 
+  .menuLinks a {
+    float: none;
+    width: 100%;
+  }
+
+  .column {
+    flex: 50%;
+  }
+  
 }
