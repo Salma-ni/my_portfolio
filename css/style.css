@@ -123,7 +123,6 @@ div img {
   justify-content: center;
 }
 
-
 h3 {
   padding: 20px;
   margin: 10px 50px 50px 50px;
@@ -132,6 +131,17 @@ h3 {
   border: solid rgb(58, 20, 146);
   color: white;
   font-size: medium;
+}
+
+.uno {
+  display: flex;
+  flex-direction: horizontal;
+
+}
+
+.dos {
+  display: flex;
+  flex-direction: horizontal;
 }
 
 a:link {

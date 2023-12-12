@@ -1,6 +1,14 @@
 # my_portfolio
 The creation of my portfolio in the form of a HTML.
 
+## Description
+
+Challange 2 was the creation of my portfilio using HTML and CSS.
+We were given a basic starter code and .css and told to recreate the image (with much difficulty).
+I created a Nav bar with links to an 'About Me', 'Projects', 'Contact Me' and 'Resume'. 
+The resume links to an external webpage, and the rest link to parts of the webpage.
+
+
 ## Citations:
 
 In .CSS 
