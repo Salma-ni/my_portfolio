@@ -110,18 +110,39 @@ h2 {
   text-align: right;
 }
 
-div img {
-  border: solid #090c0e;
-}
+/* Image section */
 
 .outerbox {
   display: flex;
   flex-direction: column;
   max-width: 500px;
-  max-width: 500px;
   margin: 5px;
   cursor: pointer;
-  justify-content: center;
+  justify-content: flex-end;
+}
+
+.horiseon {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+}
+
+.uno {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+.dos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 20px;
+  margin: 20px;
 }
 
 h3 {
@@ -134,31 +155,9 @@ h3 {
   font-size: medium;
 }
 
-.horiseon {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  padding: 20px;
-  margin: 20px;
+div img {
+  border: solid #090c0e;
 }
-
-.uno {
-  display: flex;
-  flex-direction: horizontal;
-  align-items: flex-end;
-  padding: 20px;
-  margin: 20px;
-
-}
-
-.dos {
-  display: flex;
-  flex-direction: horizontal;
-  align-items: flex-end;
-  padding: 20px;
-  margin: 20px;
-}
-
 a:link {
   text-decoration: none;
 }
