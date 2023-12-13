@@ -75,10 +75,11 @@ h2 {
   color: rgb(58, 20, 146);
 }
 
-.banner {
+#banner {
   margin: 0;
   padding: 1px;
   background-image: url(../images/02-hero-bg.jpg);
+  color: rgb(158, 130, 223);
   max-width: 100%;
   background-size: cover;
   font-style: italic;
